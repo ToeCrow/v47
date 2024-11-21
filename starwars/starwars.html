@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>StarWarsAPI</title>
+ <link rel="stylesheet" href="starwars.css">
+ <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+
+ <script src="starwars.js" defer></script>
+</head>
+<body>
+<hero>
+ <img src="assets/starwarsbackground.jpg" alt="">
+ <h1>STAR WARS<br> CATALOG</h1>
+</hero>
+<section id="content">
+
+ <div class="container">
+  <h2 class="header">Characters</h2>
+  <ul class="character-list" id="character-list">
+    <!-- Character names will be dynamically loaded here -->
+  </ul>
+  <div class="footer">
+    <button id="prev-page">&lt;</button>
+    <span class="page-number" id="page-number">1</span>
+    <button id="next-page">&gt;</button>
+  </div>
+ </div>
+
+ <div class="container">
+  <h2 class="header">Details</h2>
+  <div class="character-details" id="character-details">
+    <!-- Character details will be dynamically loaded here -->
+   <div class="btnBox"></div>
+   </div>
+  <div class="planet-details" id="planet-details"></div>
+ </div>
+</section>
+</body>
+</html>
